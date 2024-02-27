@@ -1,0 +1,116 @@
+/* Apply global styles if needed */
+
+/* Styles for login container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100wh;
+  padding: 20px 40px; /* Adjust vertical and horizontal padding */
+  background-color: #2874f0; /* Flipkart blue color */
+}
+
+/* Styles for form */
+.form {
+  padding: 20px 20px; /* Note the correct syntax for padding */
+  background-color: #ffffff; /* White background color */
+  border-radius: 8px; /* Increase border radius for a softer look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust box shadow */
+  width: 80%; /* Adjust the form width as needed */
+  max-width: 400px; /* Limit the maximum width for readability */
+  margin: 0 auto; /* Center the form horizontally */
+  text-align: left; /* Align text to the left */
+}
+
+/* Styles for login options */
+.login-options {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 20px; /* Add more space below options */
+  padding: 10px; /* Adjust padding for better spacing */
+  background-color: #2874f0; /* Flipkart blue color */
+  border-radius: 4px; /* Increase border radius for a softer look */
+}
+
+/* Styles for login and register options */
+.login-option,
+.register-option {
+  font-weight: bold;
+  cursor: pointer;
+  background: none;
+  transition: color 0.3s;
+  color: #ffffff; /* White text color */
+  margin: 0 15px; /* Add more margin between options */
+  border-bottom: 2px solid transparent; /* Add underline effect */
+}
+
+.login-option:hover,
+.register-option:hover {
+  color: #e0e0e0; /* Light gray color on hover */
+  border-color: #e0e0e0; /* Add border color on hover */
+}
+
+/* Styles for label */
+.label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  justify-content: flex-start;
+  color: #f2eaea; /* Dark gray label color */
+  margin-bottom: 8px;
+}
+
+/* Styles for input */
+.input {
+  width: 100%;
+  padding: 10px; /* Increase padding for better input spacing */
+  margin-bottom: 15px;
+  border: 1px solid #2874f0; /* Use Flipkart blue color for border */
+  border-radius: 8px; /* Increase border radius for a softer look */
+  background-color: white; /* Light gray background */
+  color: #000000; /* Black text color */
+  font-size: 1rem; /* Adjust font size */
+  outline: none;
+}
+
+/* Styles for login and register buttons */
+.login-button,
+.register-button {
+  display: block;
+  margin: 0 auto; /* Center the button horizontally */
+  width: 60%;
+  padding: 10px; /* Increase padding for better button appearance */
+  background-color: #ff9f00; /* Flipkart orange color */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 8px; /* Increase border radius for a softer look */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 15px; /* Add margin to separate from inputs */
+}
+
+/* Button hover styles */
+.login-button:hover,
+.register-button:hover {
+  background-color: #ffac34; /* Darker orange color on hover */
+}
+
+/* Styles for register toggle */
+.register-toggle {
+  background: none;
+  border: none;
+  color: #ffffff; /* White text color */
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.9rem; /* Adjust font size */
+  margin-top: 10px; /* Add space above */
+}
+
+/* Modern styles for register toggle on hover */
+.register-toggle:hover {
+  text-decoration: none;
+}
+/* Rest of your CSS styles */

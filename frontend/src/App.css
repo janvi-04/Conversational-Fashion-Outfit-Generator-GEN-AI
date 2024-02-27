@@ -1,0 +1,47 @@
+/* Styling for the entire app */
+#root {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  min-height: 100vh;
+  min-width: none;
+  padding: 0;
+  overflow: auto;
+}
+
+/* Styling for chat container */
+.chat-container {
+  display: flex;
+  flex: 1;
+  width: 80%; /* Adjust the width of the chat container */
+  margin: 0 auto; /* Center the chat container horizontally */
+}
+
+/* Styling for matching products section */
+.matching-products {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  width: 40%;
+}
+
+/* Styling for images within matching products */
+.product-images img {
+  display: block;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+/* Styling for chatbot container */
+.chatbot-container {
+  flex: 1;
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.87);
+  width: 60%; /* Adjust the width of the chatbot container */
+}
+
+/* Rest of your styles */
+

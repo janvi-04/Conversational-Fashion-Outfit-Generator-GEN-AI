@@ -1,0 +1,84 @@
+/* Apply global styles */
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh; /* Set body height to 100% viewport height */
+  width: 100vw; /* Set body width to 100% viewport width */
+ overflow: auto;
+}
+
+
+/* Styling for the entire app */
+#root {
+  display: flex;
+  min-height: 100vh;
+  min-width: none;
+  padding: 0;
+  overflow: auto;
+}
+
+/* Styling for chat container */
+.chat-container {
+  display: flex;
+  flex: 1;
+  overflow: auto;
+}
+
+/* Styling for matching products section */
+/* Styling for matching products section */
+/* Styling for matching products section */
+.matching-products {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  overflow: auto;
+  width: 40%;
+  margin-bottom: 50%;
+  display: flex; /* Use flex display */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: flex-start; /* Align items to start */
+  align-items: center; /* Center items vertically */
+}
+
+/* Styling for images within matching products */
+.product-images img {
+  display: block;
+  border-radius: 5%;
+  padding: 5px;
+  width: 80px; /* Set the desired width for the thumbnails */
+  height: 80px; /* Set the desired height for the thumbnails */
+  object-fit: cover;
+  margin-right: 10px; /* Add some spacing between images */
+  margin-bottom: 10px; /* Add some spacing between rows */
+}
+
+
+/* Styling for chatbot container */
+.chatbot-container {
+  flex: 1;
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.87);
+  overflow: auto;
+  width: 40%; /* Adjust width as needed */
+
+}
+
